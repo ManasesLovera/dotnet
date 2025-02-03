@@ -1,0 +1,240 @@
+2025-01-31 18:47:01.773 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-31 18:47:01.841 -04:00 [DBG] Hosting starting
+2025-01-31 18:47:01.906 -04:00 [INF] Now listening on: http://localhost:5046
+2025-01-31 18:47:01.906 -04:00 [DBG] Loaded hosting startup assembly QuartzDemo
+2025-01-31 18:47:01.907 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-31 18:47:01.908 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-31 18:47:01.908 -04:00 [INF] Hosting environment: Development
+2025-01-31 18:47:01.909 -04:00 [INF] Content root path: /home/mlovera/personal/dotnet/QuartzDemo
+2025-01-31 18:47:01.909 -04:00 [DBG] Hosting started
+2025-01-31 18:48:57.450 -04:00 [DBG] Connection id "0HNA295P53ED6" accepted.
+2025-01-31 18:48:57.454 -04:00 [DBG] Connection id "0HNA295P53ED6" started.
+2025-01-31 18:48:57.454 -04:00 [DBG] Connection id "0HNA295P53ED7" accepted.
+2025-01-31 18:48:57.454 -04:00 [DBG] Connection id "0HNA295P53ED7" started.
+2025-01-31 18:48:57.496 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/ - null null
+2025-01-31 18:48:57.506 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-31 18:48:57.523 -04:00 [DBG] No candidates found for the request path '/'
+2025-01-31 18:48:57.525 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:48:57.540 -04:00 [DBG] The request path  does not match the path filter
+2025-01-31 18:48:57.542 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-01-31 18:48:57.547 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:48:57.549 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/ - 404 0 null 53.9845ms
+2025-01-31 18:48:57.555 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5046/, Response status code: 404
+2025-01-31 18:49:06.050 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/index.html - null null
+2025-01-31 18:49:06.050 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-01-31 18:49:06.051 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.146 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-31 18:49:06.157 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-31 18:49:06.157 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:49:06.158 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/index.html - 200 null text/html;charset=utf-8 108.001ms
+2025-01-31 18:49:06.188 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui.css - null null
+2025-01-31 18:49:06.189 -04:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-01-31 18:49:06.189 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.213 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-31 18:49:06.215 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-31 18:49:06.215 -04:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-01-31 18:49:06.216 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.216 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:49:06.216 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui.css - 200 152034 text/css 27.8681ms
+2025-01-31 18:49:06.217 -04:00 [DBG] Connection id "0HNA295P53ED8" accepted.
+2025-01-31 18:49:06.217 -04:00 [DBG] Connection id "0HNA295P53ED8" started.
+2025-01-31 18:49:06.218 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui-bundle.js - null null
+2025-01-31 18:49:06.218 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-31 18:49:06.218 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-31 18:49:06.218 -04:00 [DBG] Connection id "0HNA295P53ED7" completed keep alive response.
+2025-01-31 18:49:06.218 -04:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-01-31 18:49:06.219 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 3.6306ms
+2025-01-31 18:49:06.219 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.220 -04:00 [DBG] Connection id "0HNA295P53ED8" completed keep alive response.
+2025-01-31 18:49:06.221 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 2.4508ms
+2025-01-31 18:49:06.226 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-31 18:49:06.227 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:49:06.227 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 9.3438ms
+2025-01-31 18:49:06.542 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/v1/swagger.json - null null
+2025-01-31 18:49:06.543 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-31 18:49:06.543 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.560 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/favicon-32x32.png - null null
+2025-01-31 18:49:06.560 -04:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-01-31 18:49:06.560 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:49:06.561 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-31 18:49:06.561 -04:00 [DBG] Connection id "0HNA295P53ED7" completed keep alive response.
+2025-01-31 18:49:06.561 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/favicon-32x32.png - 200 628 image/png 1.3719ms
+2025-01-31 18:49:06.622 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:49:06.623 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.4101ms
+2025-01-31 18:49:12.408 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/logger - null null
+2025-01-31 18:49:12.414 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/logger'
+2025-01-31 18:49:12.420 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)' with route pattern 'WeatherForecast/logger' is valid for the request path '/WeatherForecast/logger'
+2025-01-31 18:49:12.422 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:49:12.424 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:49:12.426 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:49:12.449 -04:00 [INF] Route matched with {action = "Logger", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logger() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:49:12.450 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:49:12.451 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:49:12.451 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:49:12.451 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:49:12.451 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:49:12.453 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:49:12.454 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:49:12.455 -04:00 [INF] Logs are working correctly...
+2025-01-31 18:49:12.456 -04:00 [WRN] This is a warning!
+2025-01-31 18:49:12.456 -04:00 [ERR] This is an error message
+2025-01-31 18:49:12.457 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:49:12.459 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:49:12.459 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:49:12.459 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:49:12.460 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-01-31 18:49:12.461 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-31 18:49:12.464 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo) in 9.8887ms
+2025-01-31 18:49:12.465 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:49:12.465 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:49:12.465 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/logger - 200 null text/plain; charset=utf-8 57.4301ms
+2025-01-31 18:50:38.842 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/logger - null null
+2025-01-31 18:50:38.848 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/logger'
+2025-01-31 18:50:38.854 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)' with route pattern 'WeatherForecast/logger' is valid for the request path '/WeatherForecast/logger'
+2025-01-31 18:50:38.862 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:50:38.872 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:50:38.880 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:50:38.891 -04:00 [INF] Route matched with {action = "Logger", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logger() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:50:38.892 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:50:38.892 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:50:38.892 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:50:38.893 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:50:38.893 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:50:38.893 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:38.895 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:38.895 -04:00 [INF] Logs are working correctly...
+2025-01-31 18:50:38.895 -04:00 [WRN] This is a warning!
+2025-01-31 18:50:38.895 -04:00 [ERR] This is an error message
+2025-01-31 18:50:38.896 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:50:38.909 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:50:38.909 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:50:38.909 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:50:38.909 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-01-31 18:50:38.910 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-31 18:50:38.910 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo) in 16.9849ms
+2025-01-31 18:50:38.910 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Logger (QuartzDemo)'
+2025-01-31 18:50:38.910 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:38.911 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/logger - 200 null text/plain; charset=utf-8 68.7078ms
+2025-01-31 18:50:39.033 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/favicon.ico - null null
+2025-01-31 18:50:39.033 -04:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-01-31 18:50:39.033 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:50:39.033 -04:00 [DBG] The request path  does not match the path filter
+2025-01-31 18:50:39.034 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:39.034 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/favicon.ico - 404 0 null 1.6799ms
+2025-01-31 18:50:39.035 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5046/favicon.ico, Response status code: 404
+2025-01-31 18:50:44.000 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - null null
+2025-01-31 18:50:44.000 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/'
+2025-01-31 18:50:44.000 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast/'
+2025-01-31 18:50:44.001 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:44.001 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:50:44.001 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:44.004 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[QuartzDemo.WeatherForecast] Get() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:50:44.005 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:50:44.005 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:50:44.005 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:50:44.006 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:50:44.006 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:50:44.006 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:44.006 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:44.009 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:50:44.010 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:50:44.010 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:50:44.010 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:50:44.010 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-31 18:50:44.010 -04:00 [INF] Executing ObjectResult, writing value of type 'QuartzDemo.WeatherForecast[]'.
+2025-01-31 18:50:44.067 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo) in 61.049ms
+2025-01-31 18:50:44.068 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:44.068 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:44.069 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - 200 null application/json; charset=utf-8 68.5578ms
+2025-01-31 18:50:57.488 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - null null
+2025-01-31 18:50:57.489 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/'
+2025-01-31 18:50:57.489 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast/'
+2025-01-31 18:50:57.489 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:57.489 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:50:57.490 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:57.490 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[QuartzDemo.WeatherForecast] Get() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:50:57.490 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:50:57.490 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:50:57.491 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:50:57.491 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:50:57.491 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:50:57.491 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:57.491 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:57.492 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:50:57.492 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:50:57.492 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:50:57.492 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:50:57.493 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-31 18:50:57.493 -04:00 [INF] Executing ObjectResult, writing value of type 'QuartzDemo.WeatherForecast[]'.
+2025-01-31 18:50:57.494 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo) in 3.0053ms
+2025-01-31 18:50:57.495 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:57.495 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:57.495 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - 200 null application/json; charset=utf-8 6.7588ms
+2025-01-31 18:50:58.425 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - null null
+2025-01-31 18:50:58.426 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/'
+2025-01-31 18:50:58.426 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast/'
+2025-01-31 18:50:58.426 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:58.426 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:50:58.427 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:58.427 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[QuartzDemo.WeatherForecast] Get() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:50:58.427 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:50:58.428 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:50:58.428 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:50:58.428 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:50:58.429 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:50:58.429 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:58.429 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:58.429 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:50:58.430 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:50:58.430 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:50:58.430 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:50:58.430 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-31 18:50:58.430 -04:00 [INF] Executing ObjectResult, writing value of type 'QuartzDemo.WeatherForecast[]'.
+2025-01-31 18:50:58.431 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo) in 1.8947ms
+2025-01-31 18:50:58.431 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:58.431 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:58.431 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - 200 null application/json; charset=utf-8 5.9249ms
+2025-01-31 18:50:59.178 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - null null
+2025-01-31 18:50:59.179 -04:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast/'
+2025-01-31 18:50:59.179 -04:00 [DBG] Endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast/'
+2025-01-31 18:50:59.179 -04:00 [DBG] Request matched endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:59.179 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-01-31 18:50:59.180 -04:00 [INF] Executing endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:59.180 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[QuartzDemo.WeatherForecast] Get() on controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo).
+2025-01-31 18:50:59.180 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-31 18:50:59.180 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-31 18:50:59.180 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-31 18:50:59.181 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-31 18:50:59.181 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-31 18:50:59.181 -04:00 [DBG] Executing controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:59.181 -04:00 [DBG] Executed controller factory for controller QuartzDemo.Controllers.WeatherForecastController (QuartzDemo)
+2025-01-31 18:50:59.181 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-01-31 18:50:59.182 -04:00 [DBG] No information found on request to perform content negotiation.
+2025-01-31 18:50:59.182 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-31 18:50:59.182 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-31 18:50:59.182 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-31 18:50:59.182 -04:00 [INF] Executing ObjectResult, writing value of type 'QuartzDemo.WeatherForecast[]'.
+2025-01-31 18:50:59.183 -04:00 [INF] Executed action QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo) in 2.0182ms
+2025-01-31 18:50:59.183 -04:00 [INF] Executed endpoint 'QuartzDemo.Controllers.WeatherForecastController.Get (QuartzDemo)'
+2025-01-31 18:50:59.183 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:50:59.184 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/WeatherForecast/ - 200 null application/json; charset=utf-8 5.3346ms
+2025-01-31 18:51:11.349 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-31 18:51:11.349 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:51:11.350 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.5445ms
+2025-01-31 18:51:11.533 -04:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5046/swagger/v1/swagger.json - null null
+2025-01-31 18:51:11.533 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-01-31 18:51:11.533 -04:00 [DBG] Request did not match any endpoints
+2025-01-31 18:51:11.537 -04:00 [DBG] Connection id "0HNA295P53ED6" completed keep alive response.
+2025-01-31 18:51:11.537 -04:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5046/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.1468ms
+2025-01-31 18:51:15.329 -04:00 [INF] Application is shutting down...
+2025-01-31 18:51:15.330 -04:00 [DBG] Hosting stopping
+2025-01-31 18:51:15.338 -04:00 [DBG] Connection id "0HNA295P53ED6" disconnecting.
+2025-01-31 18:51:15.338 -04:00 [DBG] Connection id "0HNA295P53ED8" disconnecting.
+2025-01-31 18:51:15.338 -04:00 [DBG] Connection id "0HNA295P53ED7" disconnecting.
+2025-01-31 18:51:15.340 -04:00 [DBG] Connection id "0HNA295P53ED6" stopped.
+2025-01-31 18:51:15.340 -04:00 [DBG] Connection id "0HNA295P53ED7" stopped.
+2025-01-31 18:51:15.340 -04:00 [DBG] Connection id "0HNA295P53ED8" stopped.
+2025-01-31 18:51:15.343 -04:00 [DBG] Connection id "0HNA295P53ED6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-31 18:51:15.343 -04:00 [DBG] Connection id "0HNA295P53ED7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-31 18:51:15.343 -04:00 [DBG] Connection id "0HNA295P53ED8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-31 18:51:15.348 -04:00 [DBG] Hosting stopped
