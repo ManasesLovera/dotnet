@@ -1,0 +1,43 @@
+2025-02-12 21:07:08.320 -04:00 [INF] Now listening on: http://localhost:5000
+2025-02-12 21:07:08.365 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 21:07:08.366 -04:00 [INF] Hosting environment: Development
+2025-02-12 21:07:08.367 -04:00 [INF] Content root path: /home/mlovera/personal/dotnet/Redis
+2025-02-12 21:07:32.124 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swager/index.html - null null
+2025-02-12 21:07:32.167 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-02-12 21:07:32.170 -04:00 [INF] HTTP GET /swager/index.html responded 404 in 18.3601 ms
+2025-02-12 21:07:32.176 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swager/index.html - 404 0 null 52.6101ms
+2025-02-12 21:07:32.180 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/swager/index.html, Response status code: 404
+2025-02-12 21:07:40.098 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-02-12 21:07:40.184 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 83.6689 ms
+2025-02-12 21:07:40.185 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 87.8717ms
+2025-02-12 21:07:40.575 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-02-12 21:07:40.671 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 94.8596 ms
+2025-02-12 21:07:40.672 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.4229ms
+2025-02-12 21:07:49.723 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Redis/get?key=myname - null null
+2025-02-12 21:07:49.727 -04:00 [INF] Executing endpoint 'Redis.Controllers.RedisController.Get (Redis)'
+2025-02-12 21:07:49.751 -04:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller Redis.Controllers.RedisController (Redis).
+2025-02-12 21:07:49.880 -04:00 [WRN] Redis GET: Key myname not found
+2025-02-12 21:07:49.886 -04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-12 21:07:49.935 -04:00 [INF] Executed action Redis.Controllers.RedisController.Get (Redis) in 180.9ms
+2025-02-12 21:07:49.936 -04:00 [INF] Executed endpoint 'Redis.Controllers.RedisController.Get (Redis)'
+2025-02-12 21:07:49.936 -04:00 [INF] HTTP GET /api/Redis/get responded 404 in 210.8866 ms
+2025-02-12 21:07:49.937 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Redis/get?key=myname - 404 null application/problem+json; charset=utf-8 213.5696ms
+2025-02-12 21:08:12.477 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Redis/set?key=myname&value=Manases - null 0
+2025-02-12 21:08:12.479 -04:00 [INF] Executing endpoint 'Redis.Controllers.RedisController.Set (Redis)'
+2025-02-12 21:08:12.482 -04:00 [INF] Route matched with {action = "Set", controller = "Redis"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Set(System.String, System.String) on controller Redis.Controllers.RedisController (Redis).
+2025-02-12 21:08:12.486 -04:00 [INF] Redis SET: myname = Manases
+2025-02-12 21:08:12.487 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-02-12 21:08:12.488 -04:00 [INF] Executed action Redis.Controllers.RedisController.Set (Redis) in 5.8628ms
+2025-02-12 21:08:12.488 -04:00 [INF] Executed endpoint 'Redis.Controllers.RedisController.Set (Redis)'
+2025-02-12 21:08:12.489 -04:00 [INF] HTTP POST /api/Redis/set responded 200 in 9.6904 ms
+2025-02-12 21:08:12.489 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Redis/set?key=myname&value=Manases - 200 null text/plain; charset=utf-8 12.0681ms
+2025-02-12 21:08:18.221 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Redis/get?key=myname - null null
+2025-02-12 21:08:18.222 -04:00 [INF] Executing endpoint 'Redis.Controllers.RedisController.Get (Redis)'
+2025-02-12 21:08:18.223 -04:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller Redis.Controllers.RedisController (Redis).
+2025-02-12 21:08:18.225 -04:00 [INF] Redis GET: myname = Manases
+2025-02-12 21:08:18.226 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-02-12 21:08:18.226 -04:00 [INF] Executed action Redis.Controllers.RedisController.Get (Redis) in 3.0062ms
+2025-02-12 21:08:18.227 -04:00 [INF] Executed endpoint 'Redis.Controllers.RedisController.Get (Redis)'
+2025-02-12 21:08:18.227 -04:00 [INF] HTTP GET /api/Redis/get responded 200 in 5.0977 ms
+2025-02-12 21:08:18.227 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Redis/get?key=myname - 200 null text/plain; charset=utf-8 6.5185ms
+2025-02-12 21:09:31.255 -04:00 [INF] Application is shutting down...
