@@ -9,5 +9,7 @@ namespace Redis.Intefaces
     {
         public void SetValue(string key, string value);
         public string? GetValue(string key);
+        public void PublishMessage(string channel, string message);
+        public void SubscribeToChannel(string channel, Action<string> handler);
     }
 }
