@@ -1,0 +1,50 @@
+2025-02-13 17:24:55.168 -04:00 [INF] Now listening on: http://localhost:5000
+2025-02-13 17:24:55.218 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 17:24:55.219 -04:00 [INF] Hosting environment: Development
+2025-02-13 17:24:55.220 -04:00 [INF] Content root path: /home/mlovera/personal/dotnet/Redis
+2025-02-13 17:25:06.847 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-02-13 17:25:06.888 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 17:25:06.893 -04:00 [INF] HTTP GET / responded 404 in 16.3568 ms
+2025-02-13 17:25:06.902 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 56.1572ms
+2025-02-13 17:25:06.908 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-02-13 17:25:12.655 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-02-13 17:25:12.758 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 98.7714 ms
+2025-02-13 17:25:12.759 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 103.8911ms
+2025-02-13 17:25:13.043 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-02-13 17:25:13.123 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 76.7038 ms
+2025-02-13 17:25:13.123 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.6726ms
+2025-02-13 17:25:32.069 -04:00 [INF] Application is shutting down...
+2025-02-13 17:29:10.415 -04:00 [INF] Now listening on: http://localhost:5000
+2025-02-13 17:29:10.463 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 17:29:10.464 -04:00 [INF] Hosting environment: Development
+2025-02-13 17:29:10.465 -04:00 [INF] Content root path: /home/mlovera/personal/dotnet/Redis
+2025-02-13 17:29:21.089 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-02-13 17:29:21.206 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 92.8528 ms
+2025-02-13 17:29:21.211 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 122.2299ms
+2025-02-13 17:29:21.317 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-02-13 17:29:21.327 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2025-02-13 17:29:21.340 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-13 17:29:21.340 -04:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 10.9943 ms
+2025-02-13 17:29:21.342 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 14.7275ms
+2025-02-13 17:29:21.406 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 86.4238 ms
+2025-02-13 17:29:21.408 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.9054ms
+2025-02-13 17:29:34.856 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Redis/publish?channel=mychannel&message=hola%20mundo - null 0
+2025-02-13 17:29:34.865 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-02-13 17:29:34.871 -04:00 [INF] Executing endpoint 'Redis.Controllers.RedisController.Publish (Redis)'
+2025-02-13 17:29:34.924 -04:00 [INF] Route matched with {action = "Publish", controller = "Redis"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Publish(System.String, System.String) on controller Redis.Controllers.RedisController (Redis).
+2025-02-13 17:29:35.278 -04:00 [INF] Published message to mychannel: hola mundo
+2025-02-13 17:29:35.282 -04:00 [INF] Executing AcceptedResult, writing value of type 'null'.
+2025-02-13 17:29:35.296 -04:00 [INF] Executed action Redis.Controllers.RedisController.Publish (Redis) in 358.3058ms
+2025-02-13 17:29:35.297 -04:00 [INF] Executed endpoint 'Redis.Controllers.RedisController.Publish (Redis)'
+2025-02-13 17:29:35.297 -04:00 [INF] HTTP POST /api/Redis/publish responded 202 in 437.1238 ms
+2025-02-13 17:29:35.298 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Redis/publish?channel=mychannel&message=hola%20mundo - 202 0 null 441.4705ms
+2025-02-13 17:31:50.641 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Redis/publish?channel=mychannel&message=hola%20mundo - null 0
+2025-02-13 17:31:50.644 -04:00 [INF] Executing endpoint 'Redis.Controllers.RedisController.Publish (Redis)'
+2025-02-13 17:31:50.645 -04:00 [INF] Route matched with {action = "Publish", controller = "Redis"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Publish(System.String, System.String) on controller Redis.Controllers.RedisController (Redis).
+2025-02-13 17:31:50.648 -04:00 [INF] Published message to mychannel: hola mundo
+2025-02-13 17:31:50.648 -04:00 [INF] Executing AcceptedResult, writing value of type 'null'.
+2025-02-13 17:31:50.649 -04:00 [INF] Executed action Redis.Controllers.RedisController.Publish (Redis) in 3.4051ms
+2025-02-13 17:31:50.649 -04:00 [INF] Executed endpoint 'Redis.Controllers.RedisController.Publish (Redis)'
+2025-02-13 17:31:50.650 -04:00 [INF] HTTP POST /api/Redis/publish responded 202 in 5.7758 ms
+2025-02-13 17:31:50.650 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Redis/publish?channel=mychannel&message=hola%20mundo - 202 0 null 8.934ms
+2025-02-13 18:45:20.285 -04:00 [INF] Application is shutting down...

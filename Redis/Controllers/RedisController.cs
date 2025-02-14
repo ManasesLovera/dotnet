@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Redis.Intefaces;
-using Redis.Services;
 
 namespace Redis.Controllers
 {
@@ -51,6 +50,19 @@ namespace Redis.Controllers
                 return NotFound();
             }
             return Ok(value);
+        }
+
+        /// <summary>
+        /// Publish message string to a channel using Redis.
+        /// </summary>
+        /// <param name="channel">The channel to publish.</param>
+        /// <param name="message">The message that will be published.</param>
+        /// <returns>Accepted 202 status code indicating the request has been received and working on it.</returns>
+        [HttpPost("publish")]
+        public IActionResult Publish([FromQuery] string channel, [FromQuery] string message)
+        {
+            _redisService.PublishMessage(channel, message);
+            return Accepted($"Published message to {channel}: {message}");
         }
     }
 }
