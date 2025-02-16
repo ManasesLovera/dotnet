@@ -21,9 +21,9 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
-  producer_service:
+  producer-service:
     build: ./ProducerService
-    container_name: producer-service
+    container_name: producer_service
     depends_on:
       - kafka
     environment:
@@ -33,7 +33,23 @@ services:
 
   consumer-service:
     build: ./ConsumerService
-    container_name: consumer-service
+    container_name: consumer_service
+    depends_on:
+      - kafka
+    environment:
+      - KAFKA_BROKER=kafka:9092
+
+  order-producer:
+    build: ./OrderProducer
+    container_name: order_producer
+    depends_on:
+      - kafka
+    environment:
+      - KAFKA_BROKER=kafka:9092
+  
+  order-consumer:
+    build: ./OrderConsumer
+    container_name: order_consumer
     depends_on:
       - kafka
     environment:

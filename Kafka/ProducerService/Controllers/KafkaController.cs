@@ -20,6 +20,7 @@ namespace ProducerService.Controllers
         [HttpPost("send")]
         public async Task<IActionResult> SendMessage([FromQuery] string key, [FromQuery] string message)
         {
+            Console.WriteLine("Key: {Key}, Message: {Message}.", key, message);
             await _producerService.SendMessageAsync("my-topic", key, message);
             return Ok("Message sent");
         }

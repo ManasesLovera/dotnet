@@ -4,9 +4,9 @@ COPY --from=build /app/publish .
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["ProducerService.csproj", "./"]
-RUN dotnet restore "./ProducerService.csproj"
+COPY ["OrderConsumer.csproj", "./"]
+RUN dotnet restore "./OrderConsumer.csproj"
 COPY . .
 RUN dotnet publish -c Release -o /app/publish
 
-ENTRYPOINT [ "dotnet", "ProducerService.dll" ]
+ENTRYPOINT [ "dotnet", "OrderConsumer.dll" ]

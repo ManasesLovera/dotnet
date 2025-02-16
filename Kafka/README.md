@@ -40,3 +40,7 @@ kafka-docker-compose/
     ├── zookeeper-config/
     │   ├── zookeeper.properties
 ```
+
+### Resources:
+- https://medium.com/simform-engineering/creating-microservices-with-net-core-and-kafka-a-step-by-step-approach-1737410ba76a
+- https://code-maze.com/aspnetcore-using-kafka-in-a-web-api/
