@@ -3,42 +3,32 @@
 ## Project structure
 
 ```
-kafka-docker-compose/
+Kafka/
 │── docker-compose.yml
-│── .env
 │── README.md
-│
-├── producer-service/
+├── ProducerService/
 │   ├── ProducerService.sln
-│   ├── ProducerService/
-│   │   ├── Dockerfile
-│   │   ├── appsettings.json
-│   │   ├── Program.cs
-│   │   ├── Startup.cs
-│   │   ├── Controllers/
-│   │   │   ├── KafkaProducerController.cs
-│   │   ├── Services/
-│   │   │   ├── KafkaProducerService.cs
-│   │   ├── Models/
-│   │   │   ├── MessageModel.cs
+│   ├── Dockerfile
+│   ├── appsettings.json
+│   ├── Program.cs
+│   ├── Controllers/
+│   │   ├── KafkaProducerController.cs
+│   ├── Services/
+│   │   ├── KafkaProducerService.cs
+|   ├── Interfaces/
+│   │   ├── IKafkaProducerService.cs
 │   ├── ProducerService.csproj
 │
-├── consumer-service/
+├── ConsumerService/
 │   ├── ConsumerService.sln
-│   ├── ConsumerService/
 │   │   ├── Dockerfile
 │   │   ├── appsettings.json
 │   │   ├── Program.cs
-│   │   ├── Startup.cs
+│   │   ├── Interfaces/
+│   │   │   ├── IKafkaConsumerService.cs
 │   │   ├── Services/
 │   │   │   ├── KafkaConsumerService.cs
 │   ├── ConsumerService.csproj
-│
-└── kafka/
-    ├── kafka-config/
-    │   ├── server.properties
-    ├── zookeeper-config/
-    │   ├── zookeeper.properties
 ```
 
 ### Resources:
