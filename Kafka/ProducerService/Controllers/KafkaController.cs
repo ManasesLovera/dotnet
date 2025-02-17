@@ -17,6 +17,11 @@ namespace ProducerService.Controllers
             _producerService = producerService;
         }
 
+        [HttpGet]
+        public IActionResult Get() {
+            return Ok("hola");
+        }
+
         [HttpPost("send")]
         public async Task<IActionResult> SendMessage([FromQuery] string key, [FromQuery] string message)
         {

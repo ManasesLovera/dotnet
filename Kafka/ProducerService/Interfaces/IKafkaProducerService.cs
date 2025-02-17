@@ -7,6 +7,6 @@ namespace ProducerService.Interfaces
 {
     public interface IKafkaProducerService
     {
-        Task SendMessageAsync(string topic, string key, string message);
+        Task SendMessageAsync(string topic, string key, string message, CancellationToken cancellationToken = default);
     }
 }

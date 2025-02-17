@@ -20,6 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Commenting to disable HTTPS redirection
+// app.UseHttpsRedirection();
 
 app.Run();
